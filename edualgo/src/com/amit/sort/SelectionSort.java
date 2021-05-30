@@ -1,4 +1,4 @@
-package sort;
+package com.amit.sort;
 
 public class SelectionSort {
 

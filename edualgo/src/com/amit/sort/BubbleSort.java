@@ -1,4 +1,4 @@
-package sort;
+package com.amit.sort;
 
 public class BubbleSort {
     public int[] sort(int arr[]){

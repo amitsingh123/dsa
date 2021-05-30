@@ -1,4 +1,4 @@
-package sort;
+package com.amit.sort;
 
 public class InsertionSort {
     public int[] sort(int arr[]){
