@@ -3,9 +3,22 @@ package sort;
 public class SortMain {
     private static int[] arr = new int[]{10,5,4,16,2,1};
     public static void main(String[] args) {
-        SelectionSort ss = new SelectionSort();
+        //Selection sort
+//        SelectionSort ss = new SelectionSort();
+//        print("before sort");
+//        ss.sort(arr);
+//        print("after sort");
+
+       //Bubble sort
+//        BubbleSort bs = new BubbleSort();
+//        print("before sort");
+//        bs.sort(arr);
+//        print("after sort");
+
+        //Insertion sort
+        InsertionSort is = new InsertionSort();
         print("before sort");
-        ss.sort(arr);
+        is.sort(arr);
         print("after sort");
     }
 
