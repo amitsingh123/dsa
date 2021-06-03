@@ -1,5 +1,8 @@
 package com.amit.sort;
 
+import java.util.Arrays;
+import java.util.Random;
+
 public class SortMain {
     private static int[] arr = new int[]{10,5,4,16,2,1};
     public static void main(String[] args) {
@@ -24,7 +27,7 @@ public class SortMain {
         //Merge sort
         MergeSort ms = new MergeSort();
         print("before sort");
-        ms.mergeSort(arr,0,arr.length-1);
+        //ms.mergeSort(arr,0,arr.length-1);
         print("after sort");
     }
 
